@@ -1,0 +1,7 @@
+{
+    "hw_target": "f7",
+    "mode": "channel",
+    "channel": "release",
+    "json_index": "https://update.flipperzero.one/firmware/directory.json",
+    "version": "1.4.3"
+}

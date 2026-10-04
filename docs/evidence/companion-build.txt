@@ -1,0 +1,18 @@
+No dependencies
+Building in release mode
+Compiling .pio/build/devboard/main/main.c.o
+Compiling .pio/build/devboard/rid.c.o
+Linking .pio/build/devboard/firmware.elf
+Retrieving maximum program size .pio/build/devboard/firmware.elf
+Checking size .pio/build/devboard/firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   9.2% (used 30300 bytes from 327680 bytes)
+Flash: [======    ]  64.1% (used 672610 bytes from 1048576 bytes)
+Building .pio/build/devboard/firmware.bin with action:
+  "$PYTHONEXE" "$OBJCOPY" --chip esp32s2 elf2image --flash_mode ${__get_board_flash_mode(__env__)} --flash_freq ${__get_board_f_image(__env__)} --flash_size 4MB --elf-sha256-offset 0xb0 -o $TARGET $SOURCES
+Building .pio/build/devboard/firmware.bin
+esptool.py v4.9.0
+Creating esp32s2 image...
+Merged 2 ELF sections
+Successfully created esp32s2 image.
+========================= [SUCCESS] Took 2.84 seconds =========================

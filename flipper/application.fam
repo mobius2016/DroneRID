@@ -1,0 +1,5 @@
+App(appid="drone_rid", name="DroneRID", apptype=FlipperAppType.EXTERNAL,
+    entry_point="drone_rid_app", requires=["gui", "storage", "dialogs"],
+    stack_size=6144, fap_category="GPIO", fap_version="0.1",
+    fap_icon="icon.png", fap_author="DroneRID contributors", fap_description="Remote ID packet inspector and optional Wi-Fi receiver",
+    sources=["*.c"])

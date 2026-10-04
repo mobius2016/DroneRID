@@ -1,0 +1,41 @@
+# Local Python environments and caches
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Downloaded SDKs, toolchains, and local build output
+/.tools/
+/.build/
+.pio/
+dist/
+build/
+compile_commands.json
+
+# ESP-IDF generated configuration and downloaded components
+# Keep sdkconfig.defaults and dependency lockfiles for reproducible builds.
+/companion/sdkconfig
+/companion/sdkconfig.old
+/companion/sdkconfig.devboard
+/companion/sdkconfig.devboard.old
+/companion/managed_components/
+
+# Machine-specific editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment settings; example files can be committed
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# macOS metadata
+.DS_Store
+._*

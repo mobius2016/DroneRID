@@ -1,0 +1,61 @@
+Version,+,87.1,,
+Function,-,ble_event_dispatcher_init,void,
+Function,-,ble_event_dispatcher_process_event,BleEventFlowStatus,void*
+Function,+,ble_event_dispatcher_register_svc_handler,GapSvcEventHandler*,"BleSvcEventHandlerCb, void*"
+Function,-,ble_event_dispatcher_reset,void,
+Function,+,ble_event_dispatcher_unregister_svc_handler,void,GapSvcEventHandler*
+Function,+,furi_hal_bt_change_app,FuriHalBleProfileBase*,"const FuriHalBleProfileTemplate*, FuriHalBleProfileParams, const GapRootSecurityKeys*, GapEventCallback, void*"
+Function,+,furi_hal_bt_check_profile_type,_Bool,"FuriHalBleProfileBase*, const FuriHalBleProfileTemplate*"
+Function,+,furi_hal_bt_clear_white_list,_Bool,
+Function,+,furi_hal_bt_dump_state,void,FuriString*
+Function,+,furi_hal_bt_ensure_c2_mode,_Bool,BleGlueC2Mode
+Function,+,furi_hal_bt_extra_beacon_get_config,const GapExtraBeaconConfig*,
+Function,+,furi_hal_bt_extra_beacon_get_data,uint8_t,uint8_t*
+Function,+,furi_hal_bt_extra_beacon_is_active,_Bool,
+Function,+,furi_hal_bt_extra_beacon_set_config,_Bool,const GapExtraBeaconConfig*
+Function,+,furi_hal_bt_extra_beacon_set_data,_Bool,"const uint8_t*, uint8_t"
+Function,+,furi_hal_bt_extra_beacon_start,_Bool,
+Function,+,furi_hal_bt_extra_beacon_stop,_Bool,
+Function,+,furi_hal_bt_get_key_storage_buff,void,"uint8_t**, uint16_t*"
+Function,+,furi_hal_bt_get_radio_stack,FuriHalBtStack,
+Function,+,furi_hal_bt_get_rssi,float,
+Function,+,furi_hal_bt_get_transmitted_packets,uint32_t,
+Function,-,furi_hal_bt_init,void,
+Function,+,furi_hal_bt_is_active,_Bool,
+Function,+,furi_hal_bt_is_alive,_Bool,
+Function,+,furi_hal_bt_is_gatt_gap_supported,_Bool,
+Function,+,furi_hal_bt_is_testing_supported,_Bool,
+Function,+,furi_hal_bt_lock_core2,void,
+Function,+,furi_hal_bt_nvm_sram_sem_acquire,void,
+Function,+,furi_hal_bt_nvm_sram_sem_release,void,
+Function,+,furi_hal_bt_reinit,void,
+Function,+,furi_hal_bt_set_key_storage_change_callback,void,"BleGlueKeyStorageChangedCallback, void*"
+Function,+,furi_hal_bt_start_advertising,void,
+Function,+,furi_hal_bt_start_app,FuriHalBleProfileBase*,"const FuriHalBleProfileTemplate*, FuriHalBleProfileParams, const GapRootSecurityKeys*, GapEventCallback, void*"
+Function,+,furi_hal_bt_start_packet_rx,void,"uint8_t, uint8_t"
+Function,+,furi_hal_bt_start_packet_tx,void,"uint8_t, uint8_t, uint8_t"
+Function,+,furi_hal_bt_start_radio_stack,_Bool,
+Function,+,furi_hal_bt_start_rx,void,uint8_t
+Function,+,furi_hal_bt_start_tone_tx,void,"uint8_t, uint8_t"
+Function,+,furi_hal_bt_stop_advertising,void,
+Function,+,furi_hal_bt_stop_packet_test,uint16_t,
+Function,+,furi_hal_bt_stop_rx,void,
+Function,+,furi_hal_bt_stop_tone_tx,void,
+Function,+,furi_hal_bt_unlock_core2,void,
+Function,+,furi_hal_bt_update_battery_level,void,uint8_t
+Function,+,furi_hal_bt_update_power_state,void,_Bool
+Function,-,gap_emit_ble_beacon_status_event,void,_Bool
+Function,-,gap_extra_beacon_get_config,const GapExtraBeaconConfig*,
+Function,-,gap_extra_beacon_get_data,uint8_t,uint8_t*
+Function,-,gap_extra_beacon_get_state,GapExtraBeaconState,
+Function,-,gap_extra_beacon_init,void,
+Function,-,gap_extra_beacon_set_config,_Bool,const GapExtraBeaconConfig*
+Function,-,gap_extra_beacon_set_data,_Bool,"const uint8_t*, uint8_t"
+Function,-,gap_extra_beacon_start,_Bool,
+Function,-,gap_extra_beacon_stop,_Bool,
+Function,-,gap_get_state,GapState,
+Function,-,gap_init,_Bool,"GapConfig*, const GapRootSecurityKeys*, GapEventCallback, void*"
+Function,-,gap_start_advertising,void,
+Function,-,gap_stop_advertising,void,
+Function,-,gap_thread_stop,void,
+Function,-,hci_send_req,int,"hci_request*, uint8_t"

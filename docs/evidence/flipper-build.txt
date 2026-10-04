@@ -1,0 +1,9 @@
+scons: Entering directory `/Users/nick/Dev/DroneRID/.tools/ufbt/current/scripts/ufbt'
+	APPMETA	/Users/nick/Dev/DroneRID/.tools/ufbt/build/drone_rid.fap
+	INSTALL	/Users/nick/Dev/DroneRID/flipper/dist/debug/drone_rid_d.elf
+	CDB	/Users/nick/Dev/DroneRID/flipper/.vscode/compile_commands.json
+	FAP	/Users/nick/Dev/DroneRID/.tools/ufbt/build/drone_rid.fap
+	FASTFAP	/Users/nick/Dev/DroneRID/.tools/ufbt/build/drone_rid.fap
+	INSTALL	/Users/nick/Dev/DroneRID/flipper/dist/drone_rid.fap
+	APPCHK	/Users/nick/Dev/DroneRID/.tools/ufbt/build/drone_rid.fap
+		Target: 7, API: 87.1
